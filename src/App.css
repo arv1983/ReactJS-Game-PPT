@@ -1,10 +1,27 @@
 .App {
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 300px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.placar {
+  height: 10vh;
+  border: black solid 1px;
+  border-radius: 15px;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-self: start;
+  margin: 0 auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
